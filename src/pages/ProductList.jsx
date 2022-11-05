@@ -5,8 +5,6 @@ import "react-toastify/dist/ReactToastify.css";
 
 const ProductList = () => {
   const {
-    isEmpty,
-    totalUniqueItems,
     items,
     updateItemQuantity,
     removeItem,
