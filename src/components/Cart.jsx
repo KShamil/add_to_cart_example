@@ -18,7 +18,7 @@ const Cart = ({ cImage, cName, cPrice, addProduct }) => {
         <div className="products_info">
           <div className="price_button">
             <p>{cPrice} AZN</p>
-            <button onClick={() => (notify(addItem(addProduct)))} type="button">
+            <button className="add_btn" onClick={() => (notify(addItem(addProduct)))} type="button">
               Add to Cart
             </button>
             <ToastContainer 
