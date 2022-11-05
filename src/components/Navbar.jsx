@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
       <div className="container">
-        <a className="navbar-brand" target="_blank" href="https://apple.com">
+        <a className="navbar-brand"  href="https://apple.com">
           <i class="fa-brands fa-apple"></i>
         </a>
         <button
